@@ -1,0 +1,108 @@
+/***********************/
+/* MEALS SECTION */
+/***********************/
+
+.section-meals {
+  padding-block: var(--section-space);
+}
+
+.meal-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 9.6rem;
+}
+
+.cord-content {
+  padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+}
+
+.meal {
+  box-shadow: 0px 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 1.2rem;
+  overflow: hidden;
+  transition: all 300ms;
+}
+
+.meal:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0px 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.cat {
+  margin-bottom: 1.2rem;
+}
+
+.cat span {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #333;
+  padding: 0.4rem 0.8rem;
+  border-radius: 100px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.car--Vegetarian {
+  background-color: #69db7c;
+}
+.car--Vegan {
+  background-color: #a9e34b;
+}
+.car--Paleo {
+  background-color: #ffd43b;
+  margin-left: 0.4rem;
+}
+
+.meal-attr-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.meal-attr-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.meal-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: var(--main-color);
+}
+
+.meal-img {
+  width: 100%;
+}
+
+.diets-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.diet-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.diet-list-item span {
+  font-size: 1.8rem;
+}
+
+.diet-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: var(--main-color);
+}
+
+.all-meal-cards {
+  margin-top: 6.4rem;
+  text-align: center;
+}
+
+.all-meal-cards .link {
+  font-size: 1.8rem;
+}

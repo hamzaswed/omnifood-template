@@ -1,0 +1,151 @@
+/***********************/
+/* HEADER */
+/***********************/
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 9.6rem;
+  background-color: var(--main-light-color-1);
+  padding-inline: 4.8rem;
+  position: relative;
+}
+
+.header .nav-list {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.header .nav-list .nav-link {
+  transition: all 300ms;
+  padding-block: 1.2rem;
+}
+
+.header .nav-list .nav-link:hover {
+  color: var(--main-dark-color-1);
+}
+
+.header .nav-list .nav-link.nav-cta {
+  border-radius: 8px;
+  background-color: var(--main-color);
+  padding-inline: 2.4rem;
+  color: var(--white-color);
+}
+
+.header .nav-list .nav-link.nav-cta:hover {
+  color: var(--white-color);
+  background-color: var(--main-dark-color-1);
+}
+
+.no-sticky-header .header,
+.sticky-header .header {
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  height: 8rem;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.08);
+}
+
+.sticky-header .header {
+  animation: sticky-header 0.5s forwards;
+}
+
+.no-sticky-header .header {
+  animation: no-sticky-header 0.5s forwards;
+}
+
+@keyframes sticky-header {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.no-sticky-header .hero-section,
+.sticky-header .hero-section {
+  margin-top: 9.6rem;
+}
+
+@keyframes no-sticky-header {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+/***********************/
+/* Hero Section */
+/***********************/
+
+.hero-section {
+  background-color: var(--main-light-color-1);
+  padding-bottom: var(--section-space);
+  padding-top: 4.8rem;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.hero-section .container {
+  max-width: 130rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 9.6rem;
+}
+
+.hero-section .hero-text {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 4.8rem;
+}
+
+.hero-section .hero-img {
+  width: 100%;
+}
+
+.hero-section .secondery-btn {
+  margin-left: 2.4rem;
+}
+
+.delivered-meals {
+  display: flex;
+  margin-top: 6.4rem;
+  gap: 2.4rem;
+  align-items: center;
+}
+
+.delivered-img {
+  display: flex;
+}
+
+.delivered-img img {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+  border: 3px solid var(--main-light-color-1);
+  margin-right: -1.6rem;
+}
+
+.delivered-img img:last-child {
+  margin: 0;
+}
+
+.delivered-meals .delivered-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.delivered-meals .delivered-text span {
+  color: var(--main-dark-color-1);
+}

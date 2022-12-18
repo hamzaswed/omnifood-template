@@ -1,0 +1,166 @@
+/***********************/
+/* PRICING SECTION */
+/***********************/
+
+.pricing-section {
+  padding-block: var(--section-space);
+}
+
+.pricing {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6.4rem;
+  justify-items: end;
+}
+
+.pricing-plan {
+  border-radius: 1.2rem;
+  width: 375px;
+}
+
+.plan--complete {
+  position: relative;
+  padding: 4.8rem;
+  justify-self: start;
+  background-color: var(--main-light-color-1);
+  overflow: hidden;
+}
+
+.plan--complete::after {
+  content: "Best Value";
+  position: absolute;
+  top: 7%;
+  right: -10%;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: rgb(255, 212, 59);
+  padding: 0.8rem 5rem;
+  color: rgb(51, 51, 51);
+  transform: rotate(45deg);
+}
+
+.plan--starter {
+  padding: 4.6rem;
+  border: 2px solid var(--main-light-color-1);
+  /* box-shadow: inset 0px 0px 0px 2px var(--main-light-color-1); */
+}
+
+.pricing {
+  margin-bottom: 4.8rem;
+}
+
+.plan-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.plan-name {
+  color: var(--main-dark-color-1);
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 3.2rem;
+  line-height: 1.6;
+  letter-spacing: 0.75px;
+}
+
+.plan-price {
+  font-size: 5.2rem;
+  font-weight: 600;
+  color: var(--main-dark-color-2);
+}
+
+.plan-price span {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.plan-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-weight: 500;
+  color: #6f6f6f;
+}
+
+.plan-text span {
+  color: var(--main-dark-color-1);
+  margin-inline: 2px;
+}
+
+.plan-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-bottom: 4.8rem;
+}
+
+.plan-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.plan-list-item span {
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+.plan-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: var(--main-color);
+}
+
+.plan-signup {
+  text-align: center;
+}
+
+.unAvilable-plan-item {
+  position: relative;
+}
+
+.unAvilable-plan-item::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background-color: var(--main-color);
+  height: 1.5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 9.8rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6.4rem;
+}
+
+.feture-icon {
+  color: var(--main-dark-color-1);
+  border: 1px solid var(--main-dark-color-1);
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+  background-color: var(--main-light-color-1);
+  padding: 1.6rem;
+  border-radius: 12px;
+}
+.feature-title {
+  font-size: 2rem;
+  color: var(--main-dark-color-2);
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.6;
+}

@@ -1,0 +1,62 @@
+/***********************/
+/* HOW IT WORKS SECTION */
+/***********************/
+
+.how-section {
+  padding-top: var(--section-space);
+}
+
+.how-section .step-boxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6.4rem;
+  row-gap: 9.6rem;
+  align-items: center;
+}
+
+.step-number {
+  font-size: 8.6rem;
+  font-weight: 700;
+  /* color: #ddd; */
+  color: rgba(92, 50, 14, 0.2);
+  letter-spacing: -0.5;
+  margin-bottom: 1.2rem;
+}
+
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+.step-img-box {
+  text-align: center;
+  position: relative;
+}
+
+.step-img-box::after,
+.step-img-box::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.step-img-box::after {
+  background-color: var(--main-light-color-1);
+  width: 70%;
+  padding-bottom: 70%;
+  z-index: -2;
+}
+
+.step-img-box::before {
+  background-color: var(--main-light-color-2);
+  width: 55%;
+  padding-bottom: 55%;
+  z-index: -1;
+}
+
+.step-img {
+  width: 35%;
+}
