@@ -6,6 +6,8 @@
   <h2 align="center">Omnifood Template Project</h2>
 
   Responsive template for a food delivery service, built using HTML, CSS, and JavaScript.
+  
+ <a href="https://hamzaswed.github.io/omnifood-template/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -22,10 +24,7 @@ If you have any feedback, please reach out to me at hamzaswed66@gmail.com.
 ## Used Technology
 
 **Client:** HTML, CSS, JavaScript
-
-## Demo
-
-Check out the live demo of the Omnifood Template Project [here](https://hamzaswed.github.io/omnifood-template/).
+.
 
 ### Screenshot
 
@@ -39,11 +38,7 @@ The Omnifood Template Project includes the following features:
 
 2. **Stylish and Modern UI**: The template offers a visually appealing and modern user interface design, creating an engaging experience for users.
 
-3. **Interactive Sections**: The template includes interactive sections, such as a carousel/slider, animated counters, and smooth scrolling, to enhance user engagement and showcase key information.
-
-4. **Scrollspy Navigation**: The navigation menu incorporates scrollspy functionality, highlighting the active section as the user scrolls through the page.
-
-5. **Easy Customization**: The codebase is well-structured and easily customizable, allowing you to modify the content, colors, and styles to match your specific needs.
+3. **Easy Customization**: The codebase is well-structured and easily customizable, allowing you to modify the content, colors, and styles to match your specific needs.
 
 ## Usage
 
