@@ -28,7 +28,7 @@ If you have any feedback, please reach out to me at hamzaswed66@gmail.com.
 
 ### Screenshot
 
-![Screenshot](screenshot.png)
+![image](https://github.com/hamzaswed/omnifood-template/assets/81015655/2e817e5f-5287-4680-b17e-35ec22a22731)
 
 ## Features
 
